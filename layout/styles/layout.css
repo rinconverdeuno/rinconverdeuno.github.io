@@ -147,7 +147,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after, #mainav li li .drop::after{content:"\f0d7";}
 #mainav .drop::after{top:35px; left:5px;}
 #mainav li li .drop::after{top:15px; left:5px;}
-#mainav ul ul{visibility:hidden; opacity:0;}
+#mainav ul ul{visibility:hidden; opacity:0; margin-top:-25px;}
 #mainav ul li:hover > ul{visibility:visible; opacity:1;}
 
 #mainav form{display:none; margin:0; padding:0;}
