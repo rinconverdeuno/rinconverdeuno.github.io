@@ -6,3 +6,9 @@ function performSyncronousRequest() {
     redirectWindow.location;
 }
 
+$('document').ready(function(){
+
+	  //alert( "Handler for .click() called." );
+
+
+});

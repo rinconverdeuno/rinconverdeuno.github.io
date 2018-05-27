@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Galería - Rincon Verde Uno</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+<script>
+$(document).ready(function(){
+   
+	$('#ix').load(function(){
+	 alert("test");
+			var iframe = $('#ix').contents();
+
+	});
+});
+</script>
+</head>
+<body id="top">
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="">
+      <img src="../images/rinconverdehorizontal.png" style="max-width: 45%;float: left; margin-bottom: 10px;"></img>
+    </div>
+    <!-- ################################################################################################ -->
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <li><a href="../index.html">Inicio</a></li>
+        <li class="active"><a class="drop" href="#">Residencial</a>
+          <ul>
+		  <li class="active">
+				<a href="#">Galería</a>
+			</li>
+          </ul>
+        </li>
+		<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScjvWeencXZCK-aVqOggXbmu4cjH-6DT3CRyir3Uafxi6hLOg/viewform?c=0&w=1&usp=mail_form_link" onclick="performSyncronousRequest(); return false;">Reservaciones</a></li>
+        <li><a class="drop" href="#">Acerca De</a>
+          <ul>
+            <li><a href="#">Asociación de Vecinos</a></li>
+            <li><a href="#">Junta Directiva</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<div class="wrapper row2">
+  <div id="breadcrumb" class="hoc clear"> 
+  </div>
+</div>
+<div class="wrapper row3">
+<center>
+<iframe id="ix" src="https://docs.google.com/forms/d/e/1FAIpQLScjvWeencXZCK-aVqOggXbmu4cjH-6DT3CRyir3Uafxi6hLOg/viewform?embedded=true" width="700" height="2000" frameborder="0" marginheight="0" marginwidth="0">Cargando Formulario…</iframe>
+</center>
+</div>
+
+
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+   
+    <div class="content">   
+    </div>
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">rinconverdeuno.com</a></p>
+    <p class="fl_right">Creado por: Alberto Mesén</p>
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="../js/misc.js"></script>
+</body>
+</html>
