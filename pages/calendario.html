@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Galería - Rincon Verde Uno</title>
+<title>Calendario de Reservaciones - Rincon Verde Uno</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -24,20 +24,20 @@
     <nav id="mainav" class="fl_right">
       <ul class="clear">
         <li><a href="../index.html">Inicio</a></li>
-        <li class="active"><a class="drop" href="#">Residencial</a>
+        <li><a class="drop" href="#">Residencial</a>
           <ul>
-		  <li class="active">
-				<a href="#">Galería</a>
+		  <li>
+				<a href="galeria.html">Galería</a>
 			</li>
           </ul>
         </li>
-		<li><a class="drop" href="#">Reservaciones</a>
+		<li class="active"><a class="drop" href="#">Reservaciones</a>
           <ul>
 			<li>
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLScjvWeencXZCK-aVqOggXbmu4cjH-6DT3CRyir3Uafxi6hLOg/viewform?c=0&w=1&usp=mail_form_link" onclick="performSyncronousRequest(); return false;">Solicitar Reservación</a>
        
 			</li>
-			<li>
+			<li class="active">
 				<a href="calendario.html">Calendario de Reservaciones</a>
 			</li>
           </ul>
@@ -60,44 +60,21 @@
 </div>
 <div class="wrapper row3">
   <main class="hoc container clear"> 
-	<header class="heading">Galería de Fotos</header>
+	<header class="heading">Reservaciones Existentes</header>
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
+	<br/>
       <!-- ################################################################################################ -->
-      <div id="gallery">
-		 <div data-nanogallery2='{
-			"itemsBaseURL": "../images/gallery/",
-			"thumbnailWidth": "auto",
-			"thumbnailDisplayTransitionDuration": 140,
-			"thumbnailDisplayInterval": 10,
-			"thumbnailLabel": {
-			  "display": false
-			},
-			"thumbnailHoverEffect2": "scale120",
-			"thumbnailAlignment": "center",
-			"thumbnailGutterWidth": 4,
-			"thumbnailGutterHeight": 4,
-			"gallerySorting": "titledesc",
-			"galleryDisplayMode": "pagination",
-			"galleryMaxRows": 5,
-			"galleryPaginationMode": "numbers",
-			"thumbnailAlignment": "center"
-		  }'>
-		  <a href="rancho.jpg" data-ngthumb="rancho_t.jpg" data-ngdesc="2018-05-18"></a>
-		  <a href="cancha.jpg" data-ngthumb="cancha_t.jpg" data-ngdesc="2018-05-18"></a>
-		  <a href="maquinas.jpg" data-ngthumb="maquinas_t.jpg" data-ngdesc="2018-05-18"></a>
-		  <a href="int.jpg" data-ngthumb="int_t.jpg" data-ngdesc="2018-05-18"></a>
-		  <a href="bobo.jpg" data-ngthumb="bobo_t.jpg" data-ngdesc="2018-05-18"></a>
-		  <a href="carpa.jpg" data-ngthumb="carpa_t.jpg" data-ngdesc="2018-05-18"></a>
-		</div>
-	 
+      <p style="font-weight: bold;">
+	  Noviembre
+	  </p>
+	  <p class="fechaR">
+		17 Noviembre 2018 : 12 pm - 6pm
+	  </p>
       </div>
-      <br/><br/><br/>
-	  <div id="comments">
-		  <i class="fa fa-2x fa-camera"></i><p style="display: inline-block; margin-left: 10px;">¿Tienes una foto que quieres compartir?  Envíala a <b><u>aderinconverdeuno@gmail.com</u></b> para agregarla a la galería.</p>
-             
-      </div>
+      <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+	  
      
     </div>
     <!-- ################################################################################################ -->
